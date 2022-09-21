@@ -1,0 +1,960 @@
+
+  - referenceName: "navbar-default-bg"
+    name: "Navigation Background Color"
+    sort: 1
+    type: "color"
+    value: "#f8f8f8"
+    description: "The active color for links"
+    category: 4
+  - referenceName: "navbar-height"
+    name: "Navigation Height"
+    sort: 1
+    type: "text"
+    value: "50px"
+    description: "The visited color for links"
+    category: 4
+  - referenceName: "navbar-default-link-color"
+    name: "Navigation Font Color"
+    sort: 1
+    type: "color"
+    value: "#777777"
+    description: null
+    category: 4
+  - referenceName: "nav-link-padding-left"
+    name: "Navigation Link Padding Left"
+    sort: 1
+    type: "text"
+    value: "30px"
+    description: null
+    category: 4
+  - referenceName: "nav-link-padding"
+    name: "Navigation Link Padding"
+    sort: 1
+    type: "text"
+    value: "10px 15px"
+    description: null
+    category: 4
+  - referenceName: "navbar-default-link-hover-color"
+    name: "Navigation Hover Font Color"
+    sort: 1
+    type: "color"
+    value: "#333333"
+    description: null
+    category: 4
+  - referenceName: "navbar-default-link-hover-bg"
+    name: "Navigation Hover Background Color"
+    sort: 1
+    type: "color"
+    value: "rgba(255,255,255,0)"
+    description: "NULL"
+    category: 4
+  - referenceName: "link-color"
+    name: "Link Color"
+    sort: 1
+    type: "color"
+    value: "#4eabed"
+    description: null
+    category: 3
+  - referenceName: "link-hover-color"
+    name: "Link Hover Color"
+    sort: 1
+    type: "color"
+    value: "#297ac2"
+    description: null
+    category: 3
+  - referenceName: "link-hover-decoration"
+    name: "Link Hover Decoration"
+    sort: 1
+    type: "dropdown"
+    value: "underline"
+    description: null
+    category: 3
+  - referenceName: "font-family-base"
+    name: "Main Body Font"
+    sort: 1
+    type: "font_picker"
+    value: "\"Helvetica Neue\", Helvetica, Arial, sans-serif"
+    description: null
+    category: 2
+  - referenceName: "text-color"
+    name: "Default Text Color"
+    sort: 1
+    type: "color"
+    value: "#333333"
+    description: "NULL"
+    category: 2
+  - referenceName: "font-size-base"
+    name: "Default Font Size"
+    sort: 1
+    type: "text"
+    value: "14px"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-default-color"
+    name: "Button Font Color"
+    sort: 1
+    type: "color"
+    value: "#333"
+    description: null
+    category: 6
+  - referenceName: "btn-border-radius-base"
+    name: "Button Border Radius"
+    sort: 1
+    type: "text"
+    value: "4px"
+    description: null
+    category: 6
+  - referenceName: "btn-default-bg"
+    name: "Button Background Color"
+    sort: 1
+    type: "color"
+    value: "#ffffff"
+    description: "NULL"
+    category: 6
+  - referenceName: "container-large-desktop"
+    name: "Container Max Width"
+    sort: 1
+    type: "text"
+    value: "1160px"
+    description: null
+    category: 1
+  - referenceName: "grid-gutter-width"
+    name: "Grid Gutter Width"
+    sort: 1
+    type: "dropdown"
+    value: "2%"
+    description: "NULL"
+    category: 8
+  - referenceName: "sidebar-bg-color"
+    name: "Sidebar Background Color"
+    sort: 1
+    type: "color"
+    value: "#e3e3e3"
+    description: "The font for all h1-h3 tags on the site"
+    category: 5
+  - referenceName: "sidebar-font-color"
+    name: "Sidebar Font Color"
+    sort: 1
+    type: "color"
+    value: "#333333"
+    description: "The color for links throughout the site"
+    category: 5
+  - referenceName: "nav-bg-color"
+    name: "Navigation Background Color"
+    sort: 1
+    type: "dropdown"
+    value: "none"
+    description: "NULL"
+    category: 4
+  - referenceName: "nav-height"
+    name: "Navigation Height"
+    sort: 1
+    type: "text"
+    value: "46px"
+    description: "The visited color for links"
+    category: 4
+  - referenceName: "nav-font"
+    name: "Navigation Font"
+    sort: 1
+    type: "font_picker"
+    value: "'Varela'"
+    description: null
+    category: 4
+  - referenceName: "nav-font-color"
+    name: "Navigation Font Color"
+    sort: 1
+    type: "color"
+    value: "#e3e3e3"
+    description: null
+    category: 4
+  - referenceName: "nav-font-size"
+    name: "Navigation Font Size"
+    sort: 1
+    type: "text"
+    value: "15px"
+    description: null
+    category: 4
+  - referenceName: "nav-link-padding-right"
+    name: "Navigation Link Padding Right"
+    sort: 1
+    type: "text"
+    value: "30px"
+    description: null
+    category: 4
+  - referenceName: "nav-hover-font-color"
+    name: "Navigation Hover Font Color"
+    sort: 1
+    type: "color"
+    value: "#ffffff"
+    description: null
+    category: 4
+  - referenceName: "nav-hover-bg-color"
+    name: "Navigation Hover Background Color"
+    sort: 1
+    type: "color"
+    value: "rgba(255,255,255,0)"
+    description: "NULL"
+    category: 4
+  - referenceName: "nav-transition-speed"
+    name: "Navigation Transition Speed"
+    sort: 1
+    type: "text"
+    value: "250ms"
+    description: null
+    category: 4
+  - referenceName: "nav-transition-type"
+    name: "Navigation Transition Type"
+    sort: 1
+    type: "transition_type"
+    value: "ease"
+    description: null
+    category: 4
+  - referenceName: "link-visited-color"
+    name: "Link Visited Color"
+    sort: 1
+    type: "color"
+    value: "#4d259c"
+    description: null
+    category: 3
+  - referenceName: "link-active-color"
+    name: "Link Active Color"
+    sort: 1
+    type: "color"
+    value: "#334491"
+    description: null
+    category: 3
+  - referenceName: "link-transition-speed"
+    name: "Link Transition Speed"
+    sort: 1
+    type: "text"
+    value: "100ms"
+    description: null
+    category: 3
+  - referenceName: "default-font"
+    name: "Main Body Font"
+    sort: 1
+    type: "font_picker"
+    value: "'Arial', 'Arial', 'Helvetica', 'sans-serif'"
+    description: null
+    category: 2
+  - referenceName: "default-font-color"
+    name: "Default Font Color"
+    sort: 1
+    type: "color"
+    value: "#5a5a5a"
+    description: "NULL"
+    category: 2
+  - referenceName: "default-font-size"
+    name: "Default Font Size"
+    sort: 1
+    type: "text"
+    value: "12px"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-font-color"
+    name: "Button Font Color"
+    sort: 1
+    type: "color"
+    value: "#FFFFFF"
+    description: null
+    category: 6
+  - referenceName: "btn-height"
+    name: "Button Height"
+    sort: 1
+    type: "text"
+    value: "30px"
+    description: null
+    category: 6
+  - referenceName: "btn-border-radius"
+    name: "Button Border Radius"
+    sort: 1
+    type: "text"
+    value: "4px"
+    description: null
+    category: 6
+  - referenceName: "btn-bg-color"
+    name: "Button Background Color"
+    sort: 1
+    type: "color"
+    value: "#0f63a3"
+    description: "NULL"
+    category: 6
+  - referenceName: "btn-hover-font-color"
+    name: "Button Hover Font Color"
+    sort: 1
+    type: "color"
+    value: "#ffffff"
+    description: null
+    category: 6
+  - referenceName: "container-max-width"
+    name: "Container Max Width"
+    sort: 1
+    type: "text"
+    value: "960px"
+    description: null
+    category: 1
+  - referenceName: "btn-padding-right"
+    name: "Button Padding Right"
+    sort: 1
+    type: "text"
+    value: "15px"
+    description: null
+    category: 6
+  - referenceName: "btn-padding-left"
+    name: "Button Padding Left"
+    sort: 1
+    type: "text"
+    value: "15px"
+    description: null
+    category: 6
+  - referenceName: "btn-font-size"
+    name: "Button Font Size"
+    sort: 1
+    type: "text"
+    value: "18px"
+    description: null
+    category: 6
+  - referenceName: "list-margin"
+    name: "List Margin"
+    sort: 1
+    type: "text"
+    value: "10px"
+    description: null
+    category: 7
+  - referenceName: "list-font-color"
+    name: "List Font Color"
+    sort: 1
+    type: "color"
+    value: "#333333"
+    description: null
+    category: 7
+  - referenceName: "list-font-size"
+    name: "List Font Size"
+    sort: 1
+    type: "text"
+    value: "14px"
+    description: null
+    category: 7
+  - referenceName: "headings-line-height"
+    name: "Headings Line Height"
+    sort: 1
+    type: "text"
+    value: "1.2"
+    description: null
+    category: 2
+  - referenceName: "mobile-edge-padding"
+    name: "Mobile Edge Padding"
+    sort: 1
+    type: "text"
+    value: "20px"
+    description: "This prevents text from bleeding straight to the edge when user is on a mobile device."
+    category: 1
+  - referenceName: "nav-at-font-color"
+    name: "Navigation At Font Color"
+    sort: 1
+    type: "color"
+    value: "#000000"
+    description: "The color of the Navigation element when you are at the page"
+    category: 4
+  - referenceName: "responsive-grid-margin-bottom"
+    name: "Responsive Grid Margin Bottom"
+    sort: 1
+    type: "text"
+    value: "0px"
+    description: "NULL"
+    category: 8
+  - referenceName: "responsive-break-down"
+    name: "Responsive Breakdown"
+    sort: 1
+    type: "dropdown"
+    value: "1"
+    description: "This tells the grid to split columns down immediately to 1 column, or attempt to line them up"
+    category: 8
+  - referenceName: "subnav-link-color"
+    name: "Subnav Link Color"
+    sort: 1
+    type: "color"
+    value: "#123456"
+    description: "NULL"
+    category: 5
+  - referenceName: "subnav-link-hover-color"
+    name: "Subnav Link Hover Color"
+    sort: 1
+    type: "color"
+    value: "#123456"
+    description: "NULL"
+    category: 5
+  - referenceName: "subnav-link-weight"
+    name: "Subnav Link Weight"
+    sort: 1
+    type: "font_weight"
+    value: "normal"
+    description: "NULL"
+    category: 5
+  - referenceName: "subnav-link-text-decoration"
+    name: "Subnav Link Text Decoration"
+    sort: 1
+    type: "dropdown"
+    value: "none"
+    description: "NULL"
+    category: 5
+  - referenceName: "subnav-link-hover-text-decoration"
+    name: "Subnav Link Hover Text Decoration"
+    sort: 1
+    type: "dropdown"
+    value: "none"
+    description: "NULL"
+    category: 5
+  - referenceName: "subnav-link-visited-color"
+    name: "Subnav Link Visited Color"
+    sort: 1
+    type: "color"
+    value: "#123456"
+    description: "NULL"
+    category: 5
+  - referenceName: "subnav-link-active-color"
+    name: "Subnav Link Active Color"
+    sort: 1
+    type: "color"
+    value: "#de1454"
+    description: "NULL"
+    category: 5
+  - referenceName: "font-family-test"
+    name: "Test Font Picker"
+    sort: 1
+    type: "font_picker"
+    value: null
+    description: "This is a test font picker"
+    category: 2
+  - referenceName: "content-bg-color"
+    name: "Content Background Color"
+    sort: 2
+    type: "color"
+    value: "#ffffff"
+    description: "The background color of all content boxes."
+    category: 1
+  - referenceName: "brand-primary"
+    name: "Brand Color"
+    sort: 3
+    type: "color"
+    value: "#ebebeb"
+    description: "#41bdd2"
+    category: 1
+  - referenceName: "accent-color"
+    name: "Accent Color"
+    sort: 3
+    type: "color"
+    value: "#d7d7d7"
+    description: "This color is used for hairlines, borders, even color on tables, and general aesthetics"
+    category: 1
+  - referenceName: "link-text-decoration"
+    name: "Link Text Decoration"
+    sort: 3
+    type: "dropdown"
+    value: "none"
+    description: "NULL"
+    category: 3
+  - referenceName: "border-radius-base"
+    name: "Default Border Radius"
+    sort: 4
+    type: "text"
+    value: "4px"
+    description: "The default curvature for borders around elements."
+    category: 1
+  - referenceName: "default-border-radius"
+    name: "Default Border Radius"
+    sort: 4
+    type: "text"
+    value: "4px"
+    description: "The default curvature for borders around elements."
+    category: 1
+  - referenceName: "default-spacing"
+    name: "Default Spacing"
+    sort: 4
+    type: "text"
+    value: "20px"
+    description: "This occurs in forms, and other areas where space is needed. It's meant to keep the site consistently spaced, there are areas that use this number in division to keep a digital feng shui"
+    category: 1
+  - referenceName: "link-font-weight"
+    name: "Link Font Weight"
+    sort: 4
+    type: "dropdown"
+    value: "normal"
+    description: "NULL"
+    category: 3
+  - referenceName: "body-bg"
+    name: "Body Background Color"
+    sort: 5
+    type: "color"
+    value: "#ffffff"
+    description: "The primary background for elements"
+    category: 1
+  - referenceName: "body-bg-color"
+    name: "Body Background Color"
+    sort: 5
+    type: "color"
+    value: "#ffffff"
+    description: "The primary background for elements"
+    category: 1
+  - referenceName: "paragraph-font-color"
+    name: "Paragraph Font Color"
+    sort: 5
+    type: "color"
+    value: "#6b6766"
+    description: null
+    category: 2
+  - referenceName: "paragraph-font-size"
+    name: "Paragraph Font Size"
+    sort: 6
+    type: "text"
+    value: "14px"
+    description: null
+    category: 2
+  - referenceName: "paragraph-font-weight"
+    name: "Paragraph Font Weight"
+    sort: 6
+    type: "font_weight"
+    value: "normal"
+    description: "NULL"
+    category: 2
+  - referenceName: "line-height-computed"
+    name: "Paragraph line Height"
+    sort: 7
+    type: "text"
+    value: "1.4em"
+    description: null
+    category: 2
+  - referenceName: "paragraph-line-height"
+    name: "Paragraph line Height"
+    sort: 7
+    type: "text"
+    value: "1.4em"
+    description: null
+    category: 2
+  - referenceName: "link-hover-text-decoration"
+    name: "Link Hover Text Decoration"
+    sort: 7
+    type: "dropdown"
+    value: "none"
+    description: "NULL"
+    category: 3
+  - referenceName: "paragraph-margin-bottom"
+    name: "Paragraph Margin Bottom"
+    sort: 8
+    type: "text"
+    value: "1.5em"
+    description: null
+    category: 2
+  - referenceName: "headings-font-family"
+    name: "Heading Font"
+    sort: 9
+    type: "font_picker"
+    value: "\"Helvetica Neue\", Helvetica, Arial, sans-serif"
+    description: null
+    category: 2
+  - referenceName: "heading-font"
+    name: "Heading Font"
+    sort: 9
+    type: "font_picker"
+    value: "'Arial', 'Arial', 'Helvetica', 'sans-serif'"
+    description: null
+    category: 2
+  - referenceName: "headings-color"
+    name: "H1 Font Color"
+    sort: 10
+    type: "color"
+    value: "#000000"
+    description: null
+    category: 2
+  - referenceName: "body-bg-image"
+    name: "Body Background Image"
+    sort: 10
+    type: "image"
+    value: null
+    description: "Optional background image for the body of your website."
+    category: 1
+  - referenceName: "h1-font-color"
+    name: "H1 Font Color"
+    sort: 10
+    type: "color"
+    value: "#000000"
+    description: null
+    category: 2
+  - referenceName: "table-font-size"
+    name: "Table Font Size"
+    sort: 10
+    type: "text"
+    value: "14px"
+    description: null
+    category: 7
+  - referenceName: "font-size-h1"
+    name: "H1 Font Size"
+    sort: 11
+    type: "text"
+    value: "36px"
+    description: null
+    category: 2
+  - referenceName: "h1-font-size"
+    name: "H1 Font Size"
+    sort: 11
+    type: "text"
+    value: "38px"
+    description: null
+    category: 2
+  - referenceName: "table-font-color"
+    name: "Table Font Color"
+    sort: 11
+    type: "color"
+    value: "#333333"
+    description: null
+    category: 7
+  - referenceName: "headings-font-weight"
+    name: "H1 Font Weight"
+    sort: 12
+    type: "dropdown"
+    value: "500"
+    description: "NULL"
+    category: 2
+  - referenceName: "h1-margin-bottom"
+    name: "H1 Margin Bottom"
+    sort: 12
+    type: "text"
+    value: "20px"
+    description: null
+    category: 2
+  - referenceName: "h1-font-weight"
+    name: "H1 Font Weight"
+    sort: 12
+    type: "dropdown"
+    value: "bold"
+    description: "NULL"
+    category: 2
+  - referenceName: "h2-font-color"
+    name: "H2 Font Color"
+    sort: 15
+    type: "color"
+    value: "#111"
+    description: null
+    category: 2
+  - referenceName: "body-bg-image-attachment"
+    name: "Body Background Image Attachment"
+    sort: 15
+    type: "dropdown"
+    value: "scroll"
+    description: "<strong>Fixed</strong> will leave the background image where it is as you scroll. <strong>Scroll</strong> will scroll the background image as you scroll."
+    category: 1
+  - referenceName: "list-unordered-style"
+    name: "Unordered List Style"
+    sort: 15
+    type: "dropdown"
+    value: "disc"
+    description: null
+    category: 7
+  - referenceName: "font-size-h2"
+    name: "H2 Font Size"
+    sort: 16
+    type: "text"
+    value: "30px"
+    description: null
+    category: 2
+  - referenceName: "h2-font-size"
+    name: "H2 Font Size"
+    sort: 16
+    type: "text"
+    value: "28px"
+    description: null
+    category: 2
+  - referenceName: "list-ordered-style"
+    name: "Ordered List Style"
+    sort: 16
+    type: "dropdown"
+    value: "decimal"
+    description: null
+    category: 7
+  - referenceName: "h2-margin-bottom"
+    name: "H2 Margin Bottom"
+    sort: 17
+    type: "text"
+    value: "16px"
+    description: null
+    category: 2
+  - referenceName: "h2-font-weight"
+    name: "H2 Font Weight"
+    sort: 17
+    type: "font_weight"
+    value: "bold"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-hover-bg-color"
+    name: "Button Hover Background Color"
+    sort: 20
+    type: "color"
+    value: "#082470"
+    description: "NULL"
+    category: 6
+  - referenceName: "h3-font-color"
+    name: "H3 Font Color"
+    sort: 20
+    type: "color"
+    value: "#222"
+    description: null
+    category: 2
+  - referenceName: "body-bg-image-position"
+    name: "Body Background Image Position"
+    sort: 20
+    type: "text"
+    value: "top left"
+    description: null
+    category: 1
+  - referenceName: "font-size-h3"
+    name: "H3 Font Size"
+    sort: 21
+    type: "text"
+    value: "24px"
+    description: null
+    category: 2
+  - referenceName: "h3-font-size"
+    name: "H3 Font Size"
+    sort: 21
+    type: "text"
+    value: "28px"
+    description: null
+    category: 2
+  - referenceName: "h3-margin-bottom"
+    name: "H3 Margin Bottom"
+    sort: 22
+    type: "text"
+    value: "14px"
+    description: null
+    category: 2
+  - referenceName: "h3-font-weight"
+    name: "H3 Font Weight"
+    sort: 22
+    type: "font_weight"
+    value: "bold"
+    description: "NULL"
+    category: 2
+  - referenceName: "body-bg-image-repeat"
+    name: "Body Background Image Repeat"
+    sort: 25
+    type: "dropdown"
+    value: "repeat"
+    description: "Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all."
+    category: 1
+  - referenceName: "h4-font-color"
+    name: "H4 Font Color"
+    sort: 25
+    type: "color"
+    value: "#333"
+    description: null
+    category: 2
+  - referenceName: "font-size-h4"
+    name: "H4 Font Size"
+    sort: 26
+    type: "text"
+    value: "18px"
+    description: null
+    category: 2
+  - referenceName: "h4-font-size"
+    name: "H4 Font Size"
+    sort: 26
+    type: "text"
+    value: "24px"
+    description: null
+    category: 2
+  - referenceName: "h4-margin-bottom"
+    name: "H4 Margin Bottom"
+    sort: 27
+    type: "text"
+    value: "12px"
+    description: null
+    category: 2
+  - referenceName: "h4-font-weight"
+    name: "H4 Font Weight"
+    sort: 27
+    type: "font_weight"
+    value: "bold"
+    description: "NULL"
+    category: 2
+  - referenceName: "body-bg-image-size"
+    name: "Body Background Image Size"
+    sort: 30
+    type: "dropdown"
+    value: "50%"
+    description: "<strong>Cover</strong> scales the image to be as large as possible. <strong>Contain</strong> scales the image to either the width or the height depending on which is longer. <strong>Percentages</strong> will scale the image to a percentage of the browser"
+    category: 1
+  - referenceName: "h5-font-color"
+    name: "H5 Font Color"
+    sort: 30
+    type: "color"
+    value: "#343434"
+    description: null
+    category: 2
+  - referenceName: "font-size-h5"
+    name: "H5 Font Size"
+    sort: 31
+    type: "text"
+    value: "14px"
+    description: null
+    category: 2
+  - referenceName: "h5-font-size"
+    name: "H5 Font Size"
+    sort: 31
+    type: "text"
+    value: "18px"
+    description: null
+    category: 2
+  - referenceName: "h5-margin-bottom"
+    name: "H5 Margin Bottom"
+    sort: 32
+    type: "text"
+    value: "10px"
+    description: null
+    category: 2
+  - referenceName: "h5-font-weight"
+    name: "H5 Font Weight"
+    sort: 32
+    type: "font_weight"
+    value: "bold"
+    description: "NULL"
+    category: 2
+  - referenceName: "h6-font-color"
+    name: "H6 Font Color"
+    sort: 35
+    type: "color"
+    value: "#393939"
+    description: null
+    category: 2
+  - referenceName: "font-size-h6"
+    name: "H6 Font Size"
+    sort: 36
+    type: "text"
+    value: "12px"
+    description: null
+    category: 2
+  - referenceName: "h6-font-size"
+    name: "H6 Font Size"
+    sort: 36
+    type: "text"
+    value: "16px"
+    description: null
+    category: 2
+  - referenceName: "h6-margin-bottom"
+    name: "H6 Margin Bottom"
+    sort: 37
+    type: "text"
+    value: "8px"
+    description: null
+    category: 2
+  - referenceName: "h6-font-weight"
+    name: "H6 Font Weight"
+    sort: 37
+    type: "font_weight"
+    value: "bold"
+    description: "NULL"
+    category: 2
+  - referenceName: "blockquote-font-color"
+    name: "Blockquote Font Color"
+    sort: 40
+    type: "color"
+    value: "#333333"
+    description: "NULL"
+    category: 2
+  - referenceName: "blockquote-padding"
+    name: "Blockquote Padding"
+    sort: 45
+    type: "text"
+    value: "5px"
+    description: "NULL"
+    category: 2
+  - referenceName: "blockquote-font"
+    name: "Blockquote Font"
+    sort: 50
+    type: "font_picker"
+    value: "'Arial', 'Arial', 'Helvetica', 'sans-serif'"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-secondary-bg-color"
+    name: "Secondary Button Background Color"
+    sort: 50
+    type: "color"
+    value: "#228191"
+    description: "NULL"
+    category: 6
+  - referenceName: "blockquote-font-size"
+    name: "Blockquote Font Size"
+    sort: 55
+    type: "text"
+    value: "12px"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-secondary-font-size"
+    name: "Secondary Button Font Size"
+    sort: 55
+    type: "text"
+    value: "18px"
+    description: "NULL"
+    category: 6
+  - referenceName: "blockquote-font-weight"
+    name: "Blockquote Font Weight"
+    sort: 60
+    type: "dropdown"
+    value: "normal"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-secondary-font-color"
+    name: "Secondary Button Font Color"
+    sort: 60
+    type: "color"
+    value: "#FFFFFF"
+    description: "NULL"
+    category: 6
+  - referenceName: "blockquote-font-style"
+    name: "Blockquote Font Style"
+    sort: 65
+    type: "dropdown"
+    value: "normal"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-secondary-height"
+    name: "Secondary Button Height"
+    sort: 65
+    type: "text"
+    value: "30px"
+    description: "NULL"
+    category: 6
+  - referenceName: "blockquote-line-height"
+    name: "Blockquote Line Height"
+    sort: 70
+    type: "text"
+    value: "1.1"
+    description: "NULL"
+    category: 2
+  - referenceName: "btn-secondary-padding-right"
+    name: "Secondary Button Padding Right"
+    sort: 70
+    type: "text"
+    value: "15px"
+    description: "NULL"
+    category: 6
+  - referenceName: "btn-secondary-padding-left"
+    name: "Secondary Button Padding Left"
+    sort: 75
+    type: "text"
+    value: "15px"
+    description: "NULL"
+    category: 6
+  - referenceName: "btn-secondary-hover-bg-color"
+    name: "Secondary Button Hover Background Color"
+    sort: 80
+    type: "color"
+    value: "#135953"
+    description: "NULL"
+    category: 6
+  - referenceName: "btn-secondary-hover-font-color"
+    name: "Secondary Button Hover Font Color"
+    sort: 85
+    type: "color"
+    value: "#ffffff"
+    description: "NULL"
+    category: 6

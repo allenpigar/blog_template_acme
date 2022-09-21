@@ -1,0 +1,55 @@
+
+  - id: "d08d-c4e9-7fc2"
+    web:
+      metaDescription: ""
+      metaTitle: "Single Page Demo"
+      metaLinkText: "Single Page Demo"
+      metaKeywords: null
+      pathPart: "single_page_demo"
+      path: "/single_page_demo/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 3
+      listed: true
+    data:
+      title: "Categories Page"
+  - id: "e966-aa74-c7fe"
+    web:
+      metaDescription: ""
+      metaTitle: "Demo 2"
+      metaLinkText: "Demo 2"
+      metaKeywords: null
+      pathPart: "demo2-promonew"
+      path: "/blog/finance/demo2-promonew/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/blog/finance/"
+    meta:
+      sort: 129
+      listed: true
+    data:
+      title: "Demo 2"
+  - id: "e75b-d5d9-8116"
+    web:
+      metaDescription: ""
+      metaTitle: "Another Page"
+      metaLinkText: "Another Page"
+      metaKeywords: null
+      pathPart: "another-page"
+      path: "/another-page/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 2
+      listed: true
+    data:
+      title: "Another Page"

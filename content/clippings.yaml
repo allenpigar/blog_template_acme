@@ -1,0 +1,21 @@
+
+  - id: "f4af-9821-129b"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      footer_text: "A business services company."
+      logo: "https://4rb42634.media.zestyio.com/anchor-shape.png"
+      site_name: "Acme Services"

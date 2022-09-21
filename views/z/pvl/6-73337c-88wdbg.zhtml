@@ -1,0 +1,12 @@
+<div className={styles.pvlRoot}>
+	<h1 class="pvlHeader">{{homepage.first().title}}</h1>
+	<img src="{{homepage.first().image.getImage()}}" alt="@" width="100%" />
+	<div style="display:flex" className={styles.pvlRow}>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<img src="{{homepage.first().section_2_image.getImage()}}" alt="@" width="100%" />
+		</div>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<h1 class="pvlHeader">{{homepage.first().demo_text}}</h1>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,51 @@
+
+  - id: "ee66-178d-0997"
+    web:
+      metaDescription: ""
+      metaTitle: "Another homepage "
+      metaLinkText: "Another homepage "
+      metaKeywords: null
+      pathPart: "another-homepage"
+      path: "/another-homepage/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 142
+      listed: true
+    data:
+      demo_text: null
+      image: null
+      lead_in_sub_header: null
+      new_text: null
+      section_2_header: null
+      section_2_image: null
+      section_2_sub_header: null
+      title: "Another homepage "
+  - id: "e2f4-7d85-98e5"
+    web:
+      metaDescription: "This is a Zesty.io demo page. Added more description."
+      metaTitle: "Home"
+      metaLinkText: "Home"
+      metaKeywords: null
+      pathPart: "not_zesty_home"
+      path: "/not_zesty_home/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 1
+      listed: true
+    data:
+      demo_text: "This is some new text!"
+      image: "https://4rb42634.media.zestyio.com/brainstorming-businesswoman-collaborate-1229359.rJO5q8bvB.jpg"
+      lead_in_sub_header: "Building things on the web."
+      new_text: null
+      section_2_header: "Completely synergize via premier niche markets"
+      section_2_image: "https://4rb42634.media.zestyio.com/544204-PJVN7G-582.jpg"
+      section_2_sub_header: "Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. "
+      title: "This is a BRAND new title!"

@@ -1,0 +1,385 @@
+
+  - description: null
+    label: "Globals"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings: null
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings: null
+      - name: "footer_text"
+        label: "Footer Text"
+        description: null
+        datatype: "text"
+        sort: 3
+        required: null
+        relationship: null
+        settings: null
+  - description: null
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields:
+      - name: "title"
+        label: "Lead in Title"
+        description: "This is where you add your awesome title!"
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: false
+          tooltip: "Make it catchy :) "
+      - name: "image"
+        label: "Main Image"
+        description: null
+        datatype: "images"
+        sort: 1
+        required: null
+        relationship: null
+        settings:
+          list: false
+      - name: "section_2_header"
+        label: "Section 2 Header"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "section_2_sub_header"
+        label: "Section 2 Sub Header"
+        description: ""
+        datatype: "textarea"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "section_2_image"
+        label: "Section 2 Image"
+        description: ""
+        datatype: "images"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "lead_in_sub_header"
+        label: "Lead in sub header"
+        description: ""
+        datatype: "textarea"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "demo_text"
+        label: "Demo Text"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "new_text"
+        label: "My new text field"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Services"
+    name: "services"
+    sort: 100
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "homepage"
+    content: "/content/services.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "service_icon"
+        label: "Service Icon"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Blog"
+    name: "blog"
+    sort: 105
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/blog.tpl"
+    content: "/content/blog.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Categories"
+    name: "categories"
+    sort: 107
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "blog"
+    view: "/views/categories.tpl"
+    content: "/content/categories.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "subtitle"
+        label: "Subtitle"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Articles"
+    name: "articles"
+    sort: 108
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "blog"
+    view: "/views/articles.tpl"
+    content: "/content/articles.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "binary"
+        label: "Subtitle"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "main_image"
+        label: "Main Image"
+        description: ""
+        datatype: "images"
+        sort: 3
+        required: true
+        relationship: null
+        settings:
+          group_id: "1-8dec2f6-ij5yn"
+          list: true
+      - name: "content"
+        label: "Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 5
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "tags"
+        label: "Tags"
+        description: ""
+        datatype: "one_to_many"
+        sort: 7
+        required: false
+        relationship:
+          name: "categories"
+          display: "name"
+        settings:
+          list: true
+      - name: "date"
+        label: "Date"
+        description: ""
+        datatype: "date"
+        sort: 6
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "og_title"
+        label: "og_title"
+        description: ""
+        datatype: "text"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "tc_title"
+        label: "tc_title"
+        description: ""
+        datatype: "text"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "internal_link"
+        label: "Internal Link"
+        description: ""
+        datatype: "internal_link"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "branded_"
+        label: "Branded?"
+        description: "Ask manager"
+        datatype: "yes_no"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+          tooltip: "This is to decide if it's branded."
+      - name: "written_by"
+        label: "Written By"
+        description: ""
+        datatype: "one_to_one"
+        sort: 8
+        required: false
+        relationship:
+          name: "authors"
+          display: "name"
+        settings:
+          list: true
+      - name: "onboarding_test"
+        label: "Onboarding Test"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Single Page Demo"
+    name: "single_page_demo"
+    sort: 125
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/single_page_demo.tpl"
+    content: "/content/single_page_demo.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Authors"
+    name: "authors"
+    sort: 130
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "articles"
+    view: "/views/authors.tpl"
+    content: "/content/authors.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured"
+        label: "Featured"
+        description: ""
+        datatype: "yes_no"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"

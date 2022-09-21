@@ -1,0 +1,115 @@
+
+  - id: "6594-3b0c-fa4e"
+    web:
+      metaDescription: ""
+      metaTitle: "Finances"
+      metaLinkText: "Finances"
+      metaKeywords: null
+      pathPart: "finances"
+      path: "/finances/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 140
+      listed: true
+    data:
+      name: "Finances"
+      subtitle: null
+  - id: "e0fc-41a8-edd3"
+    web:
+      metaDescription: ""
+      metaTitle: "New Category"
+      metaLinkText: "New Category"
+      metaKeywords: null
+      pathPart: "new-category"
+      path: "/blog/new-category/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/blog/"
+    meta:
+      sort: 136
+      listed: true
+    data:
+      name: "New Category TEST 4"
+      subtitle: null
+  - id: "223b-39d2-1971"
+    web:
+      metaDescription: ""
+      metaTitle: "Business"
+      metaLinkText: "Business"
+      metaKeywords: null
+      pathPart: "business"
+      path: "/blog/business/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/blog/"
+    meta:
+      sort: 109
+      listed: true
+    data:
+      name: "Business"
+      subtitle: null
+  - id: "2249-6f73-2c1a"
+    web:
+      metaDescription: ""
+      metaTitle: "test"
+      metaLinkText: "test"
+      metaKeywords: null
+      pathPart: "test"
+      path: "/blog/test/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/blog/"
+    meta:
+      sort: 137
+      listed: true
+    data:
+      name: "test"
+      subtitle: null
+  - id: "ec39-bd60-b6fa"
+    web:
+      metaDescription: ""
+      metaTitle: "Technology"
+      metaLinkText: "Technology"
+      metaKeywords: null
+      pathPart: "technology"
+      path: "/blog/technology/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/blog/"
+    meta:
+      sort: 110
+      listed: true
+    data:
+      name: "Tech"
+      subtitle: null
+  - id: "2921-c416-cec1"
+    web:
+      metaDescription: ""
+      metaTitle: "Finance"
+      metaLinkText: "Finance"
+      metaKeywords: null
+      pathPart: "finance"
+      path: "/blog/finance/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/blog/"
+    meta:
+      sort: 111
+      listed: true
+    data:
+      name: "Finance"
+      subtitle: null

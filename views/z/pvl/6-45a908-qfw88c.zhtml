@@ -1,0 +1,12 @@
+<div class="pvlRoot">
+	<div style="display:flex" class="pvlRow">
+		<div style="flex:1" class="pvlColumn">
+			<img src="{{articles.first().hero_image.getImage()}}" alt="@" width="100%" />
+		</div>
+		<div style="flex:1" class="pvlColumn">
+			<h1 class="pvlHeader">{{articles.first().title}}</h1>
+			{{articles.first().author}}
+			<div class="pvlRichtext">{{articles.first().article}}</div>
+		</div>
+	</div>
+</div>
